@@ -82,6 +82,8 @@ git add file1.txt
 git commit -m "master change"
 
 git merge branch1
+git diff
+git diff branch1 master
 
 
 resolve:
