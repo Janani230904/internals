@@ -1,0 +1,91 @@
+git --version
+
+git config --global user.name "Janani230904"
+git config --global user.email "janurgowda239@gmail.com"
+
+git config --list
+
+mkdir jan
+cd jan
+
+git init
+
+git status
+git branch
+
+touch file1.txt
+nano file1.txt
+
+cat file1.txt
+
+git add file1.txt
+
+git status
+
+git commit -m "first change"
+
+git log
+
+git branch
+
+git remote add origin https://github.com/Janani230904/project.git
+
+git remote -v
+
+git push -u origin master
+
+git clone https://github.com/Janani230904/project.git
+
+git reset --hard
+
+
+---------------------------------------------------------
+sudo apt update -y
+java --version
+sudo apt intall openjdk-21-jdk -y
+wget https://get.jenkins.io/war-stable/latest/jenkins.war
+java -jar jenkins.war httpPort=8088
+sudo rm jenkins.war
+rm -rf ~/.Jenkins
+
+sudo apt update
+sudo apt install snapd -y
+sudo snap install ngrok
+url
+sudo http 8080
+
+/github-webhook/ ==after copying the url from ngrok 
+-----------------------------------------------------------
+2nd
+
+
+git config --global user.name "Janani230904"
+git config --global user.email "janurgowda239@gmail.com"
+
+mkdir project2
+cd project2
+
+git init
+
+echo "hello" > file1.txt
+git add file1.txt
+git commit -m "initial commit"
+
+git switch -c branch1
+echo "change to branch 1" > file1.txt
+git add file1.txt
+git commit -m "branch1 change"
+
+git switch master
+echo "master branch" > file1.txt
+git add file1.txt
+git commit -m "master change"
+
+git merge branch1
+
+
+resolve:nano file1.txt
+git add file1.txt
+git commit -m "resolved merge conflict"
+
+
