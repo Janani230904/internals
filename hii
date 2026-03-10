@@ -84,9 +84,14 @@ git commit -m "master change"
 git merge branch1
 
 
-resolve:nano file1.txt
+resolve:
+git status
+nano file1.txt
+cat file1.txt
 git add file1.txt
+git merge branch1
 git commit -m "resolved merge conflict"
+
 
 
 
